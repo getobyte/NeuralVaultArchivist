@@ -8,6 +8,12 @@ This skill consolidates related memories into a single compact canonical master 
 
 This repo is intentionally vendor-neutral. It does not depend on OpenAI-only, Anthropic-only, or platform-specific manifest files.
 
+## The NeuralVault Ecosystem
+This skill is part of a 3-piece architecture for autonomous AI memory:
+1. 🧠 **[NeuralVaultCore](https://github.com/getobyte/NeuralVaultCore):** The actual local-first MCP server and database.
+2. ⚡ **[NeuralVaultSkill](https://github.com/getobyte/NeuralVaultSkill):** The daily-driver prompt for autonomous, background memory management.
+3. 🧹 **NeuralVaultArchivist (You are here):** The maintenance prompt for on-demand, safe memory consolidation.
+
 ## What It Does
 
 - Consolidates fragmented memories for a specific topic, namespace, or tag.
