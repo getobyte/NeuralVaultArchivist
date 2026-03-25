@@ -122,3 +122,8 @@ Expected behavior:
 - Automatic pruning of legacy memories
 - Silent conflict resolution without evidence
 - Autonomous consolidation during unrelated work
+
+---
+
+**NeuralVaultArchivist** — Cyber-Draco Legacy | built by [getobyte](https://github.com/getobyte)
+
