@@ -4,21 +4,21 @@
 
 NeuralVaultArchivist consolidates related memories into a single compact canonical master record — **without performing destructive cleanup**. Designed for production use where auditability, data safety, and token economy matter.
 
-![Safety](https://img.shields.io/badge/Safety-Non--Destructive-green?style=flat-square)
-![Ecosystem](https://img.shields.io/badge/Ecosystem-NeuralVault-purple?style=flat-square)
-![Author](https://img.shields.io/badge/Author-getobyte-gray?style=flat-square)
+![Safety](https://img.shields.io/badge/Safety-Non--Destructive-0D1117?style=flat-square&logo=opensourceinitiative&logoColor=4CAF50)
+![License](https://img.shields.io/badge/License-MIT-0D1117?style=flat-square&logo=opensourceinitiative&logoColor=4CAF50)
+![Ecosystem](https://img.shields.io/badge/Ecosystem-NeuralVault-0D1117?style=flat-square&logo=anthropic&logoColor=9F7AEA)
 
 ---
 
-## 🌐 The NeuralVault Ecosystem
+## 🌐 Ecosystem
 
-This skill is part of a **3-piece architecture** for autonomous AI memory:
-
-| # | Component | Role |
-|---|-----------|------|
-| 🧠 | [**NeuralVaultCore**](https://github.com/getobyte/NeuralVaultCore) | The actual local-first MCP server and database |
-| ⚡ | [**NeuralVaultSkill**](https://github.com/getobyte/NeuralVaultSkill) | The daily-driver prompt for autonomous, background memory management |
-| 🧹 | **NeuralVaultArchivist** *(you are here)* | The maintenance prompt for on-demand, safe memory consolidation |
+| Component | Role |
+|-----------|------|
+| 🧠 [**NeuralVaultCore**](https://github.com/getobyte/NeuralVaultCore) | MCP memory server — the brain |
+| ⚡ [**NeuralVaultSkill**](https://github.com/getobyte/NeuralVaultSkill) | Session memory automation — `/nvc:init` + `/nvc:end` |
+| 🧹 **NeuralVaultArchivist** *(you are here)* | Memory consolidation — on-demand cleanup |
+| 🛠️ [**NeuralSkillBuilder**](https://github.com/getobyte/NeuralSkillBuilder) | Skill builder — design, scaffold and audit Claude Code skills |
+| 🔄 [**NeuralVaultFlow**](https://github.com/getobyte/NeuralVaultFlow) | Dev workflow — brainstorm, plan, execute, audit, deploy |
 
 ---
 
@@ -55,12 +55,12 @@ Trigger the Archivist with natural language prompts:
 ## 📊 Workflow
 
 ```
-1. CONFIRM   →  Clarify target scope if the request is ambiguous
-2. SEARCH    →  Find all relevant memory fragments
-3. RETRIEVE  →  Read full contents of matched memories
+1. CONFIRM    →  Clarify target scope if the request is ambiguous
+2. SEARCH     →  Find all relevant memory fragments
+3. RETRIEVE   →  Read full contents of matched memories
 4. SYNTHESIZE →  Build a canonical master record
-5. STORE     →  Save the consolidated record
-6. REPORT    →  Surface provenance, conflicts & cleanup candidates
+5. STORE      →  Save the consolidated record
+6. REPORT     →  Surface provenance, conflicts & cleanup candidates
 ```
 
 ---
@@ -68,6 +68,6 @@ Trigger the Archivist with natural language prompts:
 <div align="center">
 
 **NeuralVaultArchivist** — Cyber-Draco Legacy  
-Built with ❤️ by [getobyte](https://github.com/getobyte)
+Built by [getobyte](https://github.com/getobyte) · Romania 🇷🇴
 
 </div>
